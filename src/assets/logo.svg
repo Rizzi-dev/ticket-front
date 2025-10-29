@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ticketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0052D4; stop-opacity:1" /> <stop offset="100%" style="stop-color:#43C6AC; stop-opacity:1" /> </linearGradient>
+  </defs>
+  
+  <g transform="translate(100, 85) rotate(-30) scale(1.1)">
+    
+    <path d="M-40,-20 L40,-20 L40,20 L-40,20 Z M-30,-20 a5,5 0 0 1 0,-10 a5,5 0 0 1 0,10 Z M-10,-20 a5,5 0 0 1 0,-10 a5,5 0 0 1 0,10 Z M10,-20 a5,5 0 0 1 0,-10 a5,5 0 0 1 0,10 Z M30,-20 a5,5 0 0 1 0,-10 a5,5 0 0 1 0,10 Z M-30,20 a5,5 0 0 0 0,10 a5,5 0 0 0 0,-10 Z M-10,20 a5,5 0 0 0 0,10 a5,5 0 0 0 0,-10 Z M10,20 a5,5 0 0 0 0,10 a5,5 0 0 0 0,-10 Z M30,20 a5,5 0 0 0 0,10 a5,5 0 0 0 0,-10 Z" fill="url(#ticketGradient)"/>
+    
+    <line x1="-15" y1="-20" x2="-15" y2="20" stroke="white" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.75"/>
+    
+    <path d="M-10 0 L0 10 L20 -10" stroke="#FF8C00" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <text x="100" y="150" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    TICKET<tspan fill="#FF8C00">HUB</tspan>
+  </text>
+  
+  <text x="100" y="168" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">
+    Your Gateway to Events
+  </text>
+</svg>

@@ -1,0 +1,47 @@
+.auth-form {
+  width: 80%;
+  max-width: 360px;
+  padding: 40px 30px;
+  color: white;
+  animation: fadeInUp 0.6s ease forwards;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.auth-logo {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.auth-form input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+}
+
+.auth-form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.auth-form .btn-primary {
+  background-color: #6c63ff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.auth-form .btn-primary:hover {
+  background-color: #5a54e8;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
